@@ -12,6 +12,8 @@
 	<dict>
 		<key>88186A1380B9F6E6AFBCFC9526D44B50F4AEFAC6</key>
 		<string>https://github.com/netep/NetepApp.git</string>
+		<key>CC7A3DFBC6F23582A1B2019B39ED7CF52B1C513E</key>
+		<string>github.com:netep/ofxNetepNotation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>NetepApp.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>88186A1380B9F6E6AFBCFC9526D44B50F4AEFAC6</key>
 		<string>../..</string>
+		<key>CC7A3DFBC6F23582A1B2019B39ED7CF52B1C513E</key>
+		<string>../..OSX/ofxNetepNotation/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/netep/NetepApp.git</string>
@@ -35,6 +39,14 @@
 			<string>88186A1380B9F6E6AFBCFC9526D44B50F4AEFAC6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>NetepApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC7A3DFBC6F23582A1B2019B39ED7CF52B1C513E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxNetepNotation</string>
 		</dict>
 	</array>
 </dict>
