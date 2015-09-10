@@ -2,7 +2,6 @@
 
 #include "ofMain.h"
 #include "ofxNetepNotation.h"
-#include "ofxTrueTypeFontUC.h"
 
 
 class ofApp : public ofBaseApp{
@@ -25,7 +24,7 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
     
     ofxNetepNotation notes;
-    ofxTrueTypeFontUC myFont;
+//    ofxTrueTypeFontUC myFont;
     vector<ofPath> characters;
     string sampleString;
 

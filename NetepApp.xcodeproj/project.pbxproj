@@ -9,9 +9,15 @@
 /* Begin PBXBuildFile section */
 		1B5F996886A777589D5DD794 /* svgtiny_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077F7AC989DAB289A1EC643F /* svgtiny_list.cpp */; };
 		1D6B78EF041B097CE4F423C4 /* svgtiny.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38BC601AD0A2F4F2319D1460 /* svgtiny.cpp */; };
-		3825B4041B98AD33004223FB /* ofxNetepNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3825B4021B98AD33004223FB /* ofxNetepNotation.cpp */; };
-		38F8DEC01BA0D0B20037E0EE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 38F8DEBA1BA0D0B20037E0EE /* README.md */; };
-		38F8DEC11BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38F8DEBC1BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp */; };
+		384037301BA196FD00AAE31E /* ofxNetepNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3840372E1BA196FD00AAE31E /* ofxNetepNotation.cpp */; };
+		384037511BA1BAAD00AAE31E /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = 384037461BA1BAAD00AAE31E /* fontstash.c */; };
+		384037521BA1BAAD00AAE31E /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = 384037481BA1BAAD00AAE31E /* stb_truetype.c */; };
+		384037531BA1BAAD00AAE31E /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 3840374B1BA1BAAD00AAE31E /* ReadMe.md */; };
+		384037541BA1BAAD00AAE31E /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3840374D1BA1BAAD00AAE31E /* ofxFontStash.cpp */; };
+		384037881BA1BB6400AAE31E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3840377E1BA1BB6400AAE31E /* README.md */; };
+		384037891BA1BB6400AAE31E /* ofTextConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384037801BA1BB6400AAE31E /* ofTextConverter.cpp */; };
+		3840378A1BA1BB6400AAE31E /* ofUnicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384037821BA1BB6400AAE31E /* ofUnicode.cpp */; };
+		3840378B1BA1BB6400AAE31E /* ofUTF8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384037841BA1BB6400AAE31E /* ofUTF8.cpp */; };
 		4294163B15857489B2176769 /* svgtiny_gradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 582921BA98D224ED41833868 /* svgtiny_gradient.cpp */; };
 		5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */; };
 		603044E656EA8D499FCF7DEA /* ofxVectorGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318ABED90EADFB757FFDCCAF /* ofxVectorGraphics.cpp */; };
@@ -63,18 +69,38 @@
 		2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
 		318ABED90EADFB757FFDCCAF /* ofxVectorGraphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxVectorGraphics.cpp; path = ../../../addons/ofxVectorGraphics/src/ofxVectorGraphics.cpp; sourceTree = SOURCE_ROOT; };
 		34BF591C646B5F6EF968D620 /* CreEPS.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = CreEPS.cpp; path = ../../../addons/ofxVectorGraphics/libs/CreEPS.cpp; sourceTree = SOURCE_ROOT; };
-		3825B3FA1B98AD33004223FB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		3825B3FB1B98AD33004223FB /* addon_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addon_config.mk; sourceTree = "<group>"; };
-		3825B4001B98AD33004223FB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3825B4021B98AD33004223FB /* ofxNetepNotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNetepNotation.cpp; sourceTree = "<group>"; };
-		3825B4031B98AD33004223FB /* ofxNetepNotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxNetepNotation.h; sourceTree = "<group>"; };
+		384037281BA196FD00AAE31E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		384037291BA196FD00AAE31E /* addon_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addon_config.mk; sourceTree = "<group>"; };
+		3840372B1BA196FD00AAE31E /* sonata.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sonata.ttf; sourceTree = "<group>"; };
+		3840372C1BA196FD00AAE31E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3840372E1BA196FD00AAE31E /* ofxNetepNotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNetepNotation.cpp; sourceTree = "<group>"; };
+		3840372F1BA196FD00AAE31E /* ofxNetepNotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxNetepNotation.h; sourceTree = "<group>"; };
+		384037461BA1BAAD00AAE31E /* fontstash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fontstash.c; sourceTree = "<group>"; };
+		384037471BA1BAAD00AAE31E /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
+		384037481BA1BAAD00AAE31E /* stb_truetype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
+		384037491BA1BAAD00AAE31E /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		3840374A1BA1BAAD00AAE31E /* ofxaddons_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ofxaddons_thumbnail.png; sourceTree = "<group>"; };
+		3840374B1BA1BAAD00AAE31E /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		3840374D1BA1BAAD00AAE31E /* ofxFontStash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFontStash.cpp; sourceTree = "<group>"; };
+		3840374E1BA1BAAD00AAE31E /* ofxFontStash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxFontStash.h; sourceTree = "<group>"; };
+		3840376F1BA1BB6400AAE31E /* checked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checked.h; sourceTree = "<group>"; };
+		384037701BA1BB6400AAE31E /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		384037711BA1BB6400AAE31E /* unchecked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unchecked.h; sourceTree = "<group>"; };
+		384037721BA1BB6400AAE31E /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		384037761BA1BB6400AAE31E /* ReleaseNotes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes; sourceTree = "<group>"; };
+		384037771BA1BB6400AAE31E /* utf8cpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = utf8cpp.html; sourceTree = "<group>"; };
+		3840377A1BA1BB6400AAE31E /* checked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checked.h; sourceTree = "<group>"; };
+		3840377B1BA1BB6400AAE31E /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		3840377C1BA1BB6400AAE31E /* unchecked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unchecked.h; sourceTree = "<group>"; };
+		3840377D1BA1BB6400AAE31E /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		3840377E1BA1BB6400AAE31E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		384037801BA1BB6400AAE31E /* ofTextConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofTextConverter.cpp; sourceTree = "<group>"; };
+		384037811BA1BB6400AAE31E /* ofTextConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofTextConverter.h; sourceTree = "<group>"; };
+		384037821BA1BB6400AAE31E /* ofUnicode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofUnicode.cpp; sourceTree = "<group>"; };
+		384037831BA1BB6400AAE31E /* ofUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofUnicode.h; sourceTree = "<group>"; };
+		384037841BA1BB6400AAE31E /* ofUTF8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofUTF8.cpp; sourceTree = "<group>"; };
+		384037851BA1BB6400AAE31E /* ofUTF8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofUTF8.h; sourceTree = "<group>"; };
 		38BC601AD0A2F4F2319D1460 /* svgtiny.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = svgtiny.cpp; path = ../../../addons/ofxSvg/libs/svgTiny/src/svgtiny.cpp; sourceTree = SOURCE_ROOT; };
-		38F8DEB71BA0D0B20037E0EE /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
-		38F8DEB81BA0D0B20037E0EE /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
-		38F8DEB91BA0D0B20037E0EE /* ofxaddons_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ofxaddons_thumbnail.png; sourceTree = "<group>"; };
-		38F8DEBA1BA0D0B20037E0EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		38F8DEBC1BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxTrueTypeFontUC.cpp; sourceTree = "<group>"; };
-		38F8DEBD1BA0D0B20037E0EE /* ofxTrueTypeFontUC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxTrueTypeFontUC.h; sourceTree = "<group>"; };
 		50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxXmlSettings.cpp; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
 		582921BA98D224ED41833868 /* svgtiny_gradient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = svgtiny_gradient.cpp; path = ../../../addons/ofxSvg/libs/svgTiny/src/svgtiny_gradient.cpp; sourceTree = SOURCE_ROOT; };
 		5F118C5DAAA61D8DB376BB3F /* svgtiny_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = svgtiny_internal.h; path = ../../../addons/ofxSvg/libs/svgTiny/src/svgtiny_internal.h; sourceTree = SOURCE_ROOT; };
@@ -144,53 +170,185 @@
 			name = src;
 			sourceTree = "<group>";
 		};
-		3825B3F91B98AD33004223FB /* ofxNetepNotation */ = {
+		384037271BA196FD00AAE31E /* ofxNetemNotation */ = {
 			isa = PBXGroup;
 			children = (
-				3825B3FA1B98AD33004223FB /* .gitignore */,
-				3825B3FB1B98AD33004223FB /* addon_config.mk */,
-				3825B3FF1B98AD33004223FB /* libs */,
-				3825B4001B98AD33004223FB /* LICENSE */,
-				3825B4011B98AD33004223FB /* src */,
+				384037281BA196FD00AAE31E /* .gitignore */,
+				384037291BA196FD00AAE31E /* addon_config.mk */,
+				3840372A1BA196FD00AAE31E /* assets */,
+				3840372C1BA196FD00AAE31E /* LICENSE */,
+				3840372D1BA196FD00AAE31E /* src */,
 			);
-			name = ofxNetepNotation;
-			path = ../../../addons/ofxNetepNotation;
+			name = ofxNetemNotation;
+			path = ../../../addons/ofxNetemNotation;
 			sourceTree = "<group>";
 		};
-		3825B3FF1B98AD33004223FB /* libs */ = {
+		3840372A1BA196FD00AAE31E /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				3840372B1BA196FD00AAE31E /* sonata.ttf */,
 			);
-			path = libs;
+			path = assets;
 			sourceTree = "<group>";
 		};
-		3825B4011B98AD33004223FB /* src */ = {
+		3840372D1BA196FD00AAE31E /* src */ = {
 			isa = PBXGroup;
 			children = (
-				3825B4021B98AD33004223FB /* ofxNetepNotation.cpp */,
-				3825B4031B98AD33004223FB /* ofxNetepNotation.h */,
+				3840372E1BA196FD00AAE31E /* ofxNetepNotation.cpp */,
+				3840372F1BA196FD00AAE31E /* ofxNetepNotation.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
 		};
-		38F8DEB11BA0D0B20037E0EE /* ofxTrueTypeFontUC */ = {
+		384037311BA1BAAD00AAE31E /* ofxFontStash */ = {
 			isa = PBXGroup;
 			children = (
-				38F8DEB71BA0D0B20037E0EE /* install.xml */,
-				38F8DEB81BA0D0B20037E0EE /* License.txt */,
-				38F8DEB91BA0D0B20037E0EE /* ofxaddons_thumbnail.png */,
-				38F8DEBA1BA0D0B20037E0EE /* README.md */,
-				38F8DEBB1BA0D0B20037E0EE /* src */,
+				384037431BA1BAAD00AAE31E /* libs */,
+				3840374A1BA1BAAD00AAE31E /* ofxaddons_thumbnail.png */,
+				3840374B1BA1BAAD00AAE31E /* ReadMe.md */,
+				3840374C1BA1BAAD00AAE31E /* src */,
 			);
-			name = ofxTrueTypeFontUC;
-			path = ../../../addons/ofxTrueTypeFontUC;
+			name = ofxFontStash;
+			path = ../../../addons/ofxFontStash;
 			sourceTree = "<group>";
 		};
-		38F8DEBB1BA0D0B20037E0EE /* src */ = {
+		384037431BA1BAAD00AAE31E /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				38F8DEBC1BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp */,
-				38F8DEBD1BA0D0B20037E0EE /* ofxTrueTypeFontUC.h */,
+				384037441BA1BAAD00AAE31E /* fontstash */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		384037441BA1BAAD00AAE31E /* fontstash */ = {
+			isa = PBXGroup;
+			children = (
+				384037451BA1BAAD00AAE31E /* src */,
+			);
+			path = fontstash;
+			sourceTree = "<group>";
+		};
+		384037451BA1BAAD00AAE31E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				384037461BA1BAAD00AAE31E /* fontstash.c */,
+				384037471BA1BAAD00AAE31E /* fontstash.h */,
+				384037481BA1BAAD00AAE31E /* stb_truetype.c */,
+				384037491BA1BAAD00AAE31E /* stb_truetype.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		3840374C1BA1BAAD00AAE31E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3840374D1BA1BAAD00AAE31E /* ofxFontStash.cpp */,
+				3840374E1BA1BAAD00AAE31E /* ofxFontStash.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		384037581BA1BB6400AAE31E /* ofxUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				3840376B1BA1BB6400AAE31E /* libs */,
+				3840377E1BA1BB6400AAE31E /* README.md */,
+				3840377F1BA1BB6400AAE31E /* src */,
+			);
+			name = ofxUnicode;
+			path = ../../../addons/ofxUnicode;
+			sourceTree = "<group>";
+		};
+		3840376B1BA1BB6400AAE31E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				3840376C1BA1BB6400AAE31E /* utf8cpp */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		3840376C1BA1BB6400AAE31E /* utf8cpp */ = {
+			isa = PBXGroup;
+			children = (
+				3840376D1BA1BB6400AAE31E /* include */,
+				384037731BA1BB6400AAE31E /* src */,
+			);
+			path = utf8cpp;
+			sourceTree = "<group>";
+		};
+		3840376D1BA1BB6400AAE31E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3840376E1BA1BB6400AAE31E /* utf8 */,
+				384037721BA1BB6400AAE31E /* utf8.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3840376E1BA1BB6400AAE31E /* utf8 */ = {
+			isa = PBXGroup;
+			children = (
+				3840376F1BA1BB6400AAE31E /* checked.h */,
+				384037701BA1BB6400AAE31E /* core.h */,
+				384037711BA1BB6400AAE31E /* unchecked.h */,
+			);
+			path = utf8;
+			sourceTree = "<group>";
+		};
+		384037731BA1BB6400AAE31E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				384037741BA1BB6400AAE31E /* utf8_v2_3_1 */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		384037741BA1BB6400AAE31E /* utf8_v2_3_1 */ = {
+			isa = PBXGroup;
+			children = (
+				384037751BA1BB6400AAE31E /* doc */,
+				384037781BA1BB6400AAE31E /* source */,
+			);
+			path = utf8_v2_3_1;
+			sourceTree = "<group>";
+		};
+		384037751BA1BB6400AAE31E /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				384037761BA1BB6400AAE31E /* ReleaseNotes */,
+				384037771BA1BB6400AAE31E /* utf8cpp.html */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		384037781BA1BB6400AAE31E /* source */ = {
+			isa = PBXGroup;
+			children = (
+				384037791BA1BB6400AAE31E /* utf8 */,
+				3840377D1BA1BB6400AAE31E /* utf8.h */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		384037791BA1BB6400AAE31E /* utf8 */ = {
+			isa = PBXGroup;
+			children = (
+				3840377A1BA1BB6400AAE31E /* checked.h */,
+				3840377B1BA1BB6400AAE31E /* core.h */,
+				3840377C1BA1BB6400AAE31E /* unchecked.h */,
+			);
+			path = utf8;
+			sourceTree = "<group>";
+		};
+		3840377F1BA1BB6400AAE31E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				384037801BA1BB6400AAE31E /* ofTextConverter.cpp */,
+				384037811BA1BB6400AAE31E /* ofTextConverter.h */,
+				384037821BA1BB6400AAE31E /* ofUnicode.cpp */,
+				384037831BA1BB6400AAE31E /* ofUnicode.h */,
+				384037841BA1BB6400AAE31E /* ofUTF8.cpp */,
+				384037851BA1BB6400AAE31E /* ofUTF8.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -247,8 +405,9 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				38F8DEB11BA0D0B20037E0EE /* ofxTrueTypeFontUC */,
-				3825B3F91B98AD33004223FB /* ofxNetepNotation */,
+				384037581BA1BB6400AAE31E /* ofxUnicode */,
+				384037311BA1BAAD00AAE31E /* ofxFontStash */,
+				384037271BA196FD00AAE31E /* ofxNetemNotation */,
 				F5F1F1EF8441E64FD46F07C8 /* ofxSvg */,
 				916B8DF9E7519F5BB8A2990B /* ofxVectorGraphics */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
@@ -410,21 +569,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				3840378A1BA1BB6400AAE31E /* ofUnicode.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				B88A57B4B0BA6191EF3571E9 /* ofxSvg.cpp in Sources */,
+				384037881BA1BB6400AAE31E /* README.md in Sources */,
 				6A565A9714A6A12EB9098F52 /* src_colors.cpp in Sources */,
-				3825B4041B98AD33004223FB /* ofxNetepNotation.cpp in Sources */,
+				384037301BA196FD00AAE31E /* ofxNetepNotation.cpp in Sources */,
+				3840378B1BA1BB6400AAE31E /* ofUTF8.cpp in Sources */,
 				1D6B78EF041B097CE4F423C4 /* svgtiny.cpp in Sources */,
 				4294163B15857489B2176769 /* svgtiny_gradient.cpp in Sources */,
+				384037541BA1BAAD00AAE31E /* ofxFontStash.cpp in Sources */,
 				1B5F996886A777589D5DD794 /* svgtiny_list.cpp in Sources */,
-				38F8DEC11BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp in Sources */,
 				603044E656EA8D499FCF7DEA /* ofxVectorGraphics.cpp in Sources */,
 				F01092BB147FA462845C38C7 /* CreEPS.cpp in Sources */,
-				38F8DEC01BA0D0B20037E0EE /* README.md in Sources */,
 				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
+				384037891BA1BB6400AAE31E /* ofTextConverter.cpp in Sources */,
 				933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */,
+				384037511BA1BAAD00AAE31E /* fontstash.c in Sources */,
+				384037531BA1BAAD00AAE31E /* ReadMe.md in Sources */,
 				9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */,
 				5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */,
+				384037521BA1BAAD00AAE31E /* stb_truetype.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
