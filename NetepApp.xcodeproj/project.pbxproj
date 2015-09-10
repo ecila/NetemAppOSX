@@ -10,6 +10,8 @@
 		1B5F996886A777589D5DD794 /* svgtiny_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077F7AC989DAB289A1EC643F /* svgtiny_list.cpp */; };
 		1D6B78EF041B097CE4F423C4 /* svgtiny.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38BC601AD0A2F4F2319D1460 /* svgtiny.cpp */; };
 		3825B4041B98AD33004223FB /* ofxNetepNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3825B4021B98AD33004223FB /* ofxNetepNotation.cpp */; };
+		38F8DEC01BA0D0B20037E0EE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 38F8DEBA1BA0D0B20037E0EE /* README.md */; };
+		38F8DEC11BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38F8DEBC1BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp */; };
 		4294163B15857489B2176769 /* svgtiny_gradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 582921BA98D224ED41833868 /* svgtiny_gradient.cpp */; };
 		5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */; };
 		603044E656EA8D499FCF7DEA /* ofxVectorGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318ABED90EADFB757FFDCCAF /* ofxVectorGraphics.cpp */; };
@@ -63,11 +65,16 @@
 		34BF591C646B5F6EF968D620 /* CreEPS.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = CreEPS.cpp; path = ../../../addons/ofxVectorGraphics/libs/CreEPS.cpp; sourceTree = SOURCE_ROOT; };
 		3825B3FA1B98AD33004223FB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3825B3FB1B98AD33004223FB /* addon_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addon_config.mk; sourceTree = "<group>"; };
-		3825B3FE1B98AD33004223FB /* sonata.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sonata.ttf; sourceTree = "<group>"; };
 		3825B4001B98AD33004223FB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3825B4021B98AD33004223FB /* ofxNetepNotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNetepNotation.cpp; sourceTree = "<group>"; };
 		3825B4031B98AD33004223FB /* ofxNetepNotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxNetepNotation.h; sourceTree = "<group>"; };
 		38BC601AD0A2F4F2319D1460 /* svgtiny.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = svgtiny.cpp; path = ../../../addons/ofxSvg/libs/svgTiny/src/svgtiny.cpp; sourceTree = SOURCE_ROOT; };
+		38F8DEB71BA0D0B20037E0EE /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
+		38F8DEB81BA0D0B20037E0EE /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		38F8DEB91BA0D0B20037E0EE /* ofxaddons_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ofxaddons_thumbnail.png; sourceTree = "<group>"; };
+		38F8DEBA1BA0D0B20037E0EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		38F8DEBC1BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxTrueTypeFontUC.cpp; sourceTree = "<group>"; };
+		38F8DEBD1BA0D0B20037E0EE /* ofxTrueTypeFontUC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxTrueTypeFontUC.h; sourceTree = "<group>"; };
 		50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxXmlSettings.cpp; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
 		582921BA98D224ED41833868 /* svgtiny_gradient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = svgtiny_gradient.cpp; path = ../../../addons/ofxSvg/libs/svgTiny/src/svgtiny_gradient.cpp; sourceTree = SOURCE_ROOT; };
 		5F118C5DAAA61D8DB376BB3F /* svgtiny_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = svgtiny_internal.h; path = ../../../addons/ofxSvg/libs/svgTiny/src/svgtiny_internal.h; sourceTree = SOURCE_ROOT; };
@@ -80,7 +87,7 @@
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* NetepAppDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetepAppDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -142,29 +149,12 @@
 			children = (
 				3825B3FA1B98AD33004223FB /* .gitignore */,
 				3825B3FB1B98AD33004223FB /* addon_config.mk */,
-				3825B3FC1B98AD33004223FB /* bin */,
 				3825B3FF1B98AD33004223FB /* libs */,
 				3825B4001B98AD33004223FB /* LICENSE */,
 				3825B4011B98AD33004223FB /* src */,
 			);
 			name = ofxNetepNotation;
 			path = ../../../addons/ofxNetepNotation;
-			sourceTree = "<group>";
-		};
-		3825B3FC1B98AD33004223FB /* bin */ = {
-			isa = PBXGroup;
-			children = (
-				3825B3FD1B98AD33004223FB /* data */,
-			);
-			path = bin;
-			sourceTree = "<group>";
-		};
-		3825B3FD1B98AD33004223FB /* data */ = {
-			isa = PBXGroup;
-			children = (
-				3825B3FE1B98AD33004223FB /* sonata.ttf */,
-			);
-			path = data;
 			sourceTree = "<group>";
 		};
 		3825B3FF1B98AD33004223FB /* libs */ = {
@@ -179,6 +169,28 @@
 			children = (
 				3825B4021B98AD33004223FB /* ofxNetepNotation.cpp */,
 				3825B4031B98AD33004223FB /* ofxNetepNotation.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		38F8DEB11BA0D0B20037E0EE /* ofxTrueTypeFontUC */ = {
+			isa = PBXGroup;
+			children = (
+				38F8DEB71BA0D0B20037E0EE /* install.xml */,
+				38F8DEB81BA0D0B20037E0EE /* License.txt */,
+				38F8DEB91BA0D0B20037E0EE /* ofxaddons_thumbnail.png */,
+				38F8DEBA1BA0D0B20037E0EE /* README.md */,
+				38F8DEBB1BA0D0B20037E0EE /* src */,
+			);
+			name = ofxTrueTypeFontUC;
+			path = ../../../addons/ofxTrueTypeFontUC;
+			sourceTree = "<group>";
+		};
+		38F8DEBB1BA0D0B20037E0EE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				38F8DEBC1BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp */,
+				38F8DEBD1BA0D0B20037E0EE /* ofxTrueTypeFontUC.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -235,6 +247,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				38F8DEB11BA0D0B20037E0EE /* ofxTrueTypeFontUC */,
 				3825B3F91B98AD33004223FB /* ofxNetepNotation */,
 				F5F1F1EF8441E64FD46F07C8 /* ofxSvg */,
 				916B8DF9E7519F5BB8A2990B /* ofxVectorGraphics */,
@@ -404,8 +417,10 @@
 				1D6B78EF041B097CE4F423C4 /* svgtiny.cpp in Sources */,
 				4294163B15857489B2176769 /* svgtiny_gradient.cpp in Sources */,
 				1B5F996886A777589D5DD794 /* svgtiny_list.cpp in Sources */,
+				38F8DEC11BA0D0B20037E0EE /* ofxTrueTypeFontUC.cpp in Sources */,
 				603044E656EA8D499FCF7DEA /* ofxVectorGraphics.cpp in Sources */,
 				F01092BB147FA462845C38C7 /* CreEPS.cpp in Sources */,
+				38F8DEC01BA0D0B20037E0EE /* README.md in Sources */,
 				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
 				933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */,
 				9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */,
